@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout ll = findViewById(R.id.layoutt);
         ll.setBackgroundColor(getResources().getColor(R.color.minhaCor));
 
-        Log.i("Mensagem", "Ola mundo");
+        Log.i("Mensagem", "Bom dia");
         //pedirPermissao();
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
     }
